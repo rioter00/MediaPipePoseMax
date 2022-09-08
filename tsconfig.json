@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+      "outDir": ".",
+      "allowJs": true,
+      "target": "ES6", 
+      "module": "commonJS",
+      "paths": {
+          "*": [
+              "./node_modules/*", 
+              "./temp/modules/*",
+          ]
+      },
+      "lib": ["es2019", "esnext"]
+  }, 
+  "include": ["./src/**/*"],
+  "exclude": ["public"]
+}
